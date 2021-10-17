@@ -7,7 +7,7 @@ import AllCards from "./components/ex4/ex4.2/AllCards";
 function App() {
 	return (
 		<div>
-      <AllCards/>
+      		<AllCards/>
 		</div>
 	);
 }
