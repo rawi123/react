@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import ex22 from './components/ex-2.2/2.2'
+// import EX22 from './components/ex-2.2/2.2'//run using {ex22}
+import EX31 from './components/ex3/ex-3.1'
 
 
 function App() {
-
   return (
     <div>
-      {ex22}
+      <EX31/>
     </div>
   );
 }
