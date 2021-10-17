@@ -1,6 +1,6 @@
 .card{
-    width: 25%;
-    height: 50vh;
+    width: 20%;
+    height: 40vh;
     background: wheat;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     width: 100%;
     height: 80%;
 }
-.image-container img{
+.img-pic{
     width: 100%;
     height: 100%;
 }
@@ -23,5 +23,5 @@
 .body{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }

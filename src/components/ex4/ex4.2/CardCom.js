@@ -2,6 +2,7 @@ import React from 'react';
 import ShareExplore from './ShareExplore';
 import Image from './Image';
 import Text from './Text';
+import './style.css';
 
 const CardComp = (prop) => {
 	return (
