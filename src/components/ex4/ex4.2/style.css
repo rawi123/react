@@ -1,0 +1,27 @@
+.card{
+    width: 25%;
+    height: 50vh;
+    background: wheat;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.image-container{
+    width: 100%;
+    height: 80%;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.share-explore>*{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: orange;
+    font-size: 1.4rem;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
