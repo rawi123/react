@@ -4,12 +4,13 @@
 // import Btns from "./components/ex4/ex4.1/Btns2";<Btns/>
 // import AllCards from "./components/ex4/ex4.2/AllCards";<AllCards/>
 // import AllCards from "./components/ex6.1/AllCards";<AllCards/>
-import Weather from './components/codeAlong/weather'
+// import Weather from './components/codeAlong/weather'<Weather/>
+import Increcment from './components/ex7/7.1 increcment/increcment';
 
 function App() {
 	return (
 		<div>
-			<Weather/>
+			<Increcment/>
 		</div>
 	);
 }
