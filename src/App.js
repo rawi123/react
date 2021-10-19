@@ -11,13 +11,13 @@
 // import Ex81 from "./components/ex8/ex8.1/index"<Ex81/>
 // import Ex82 from "./components/ex8/ex8.2/Ex8.2";<Ex82 />
 // import Ex83 from "./components/ex8/ex8.3/changing-box";<Ex83/>
+// import SpinnerMain from "./components/ex9/spinnerMain";<SpinnerMain/>
 // }
-import SpinnerMain from "./components/ex9/spinnerMain";
-
+import ChuckNorris from "./components/ex12-chuck-norris/chuckApi";
 function App() {
 	return (
 		<div>
-			<SpinnerMain/>
+			<ChuckNorris/>
 		</div>
 	);
 }

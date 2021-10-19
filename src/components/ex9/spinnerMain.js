@@ -22,8 +22,8 @@ class SpinnerMain extends React.Component {
     componentDidUpdate() {
         if (this.state.time > 0) {
             setTimeout(() => {
-                this.setState({ time: this.state.time - 1 })
-            }, 1000);
+                this.setState({ time:(this.state.time-0.1).toFixed(1) })
+            }, 100);
         }
     }
 
