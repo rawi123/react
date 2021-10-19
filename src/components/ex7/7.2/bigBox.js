@@ -2,23 +2,26 @@ import React from "react";
 import "./style.css"
 
 
-class BigBox extends React.Component{
-    constructor(props){
+class BigBox extends React.Component {
+    constructor(props) {
         super(props)
-        this.state={display:"none"}
+        this.state = { class: "box" }
     }
-    render(){
-        const showHide=()=>{
-            
-            this.setState({display:this.state.display==="none"?"block":"none"})
+    componentDidMount() {
+        const showHide = () => {
+            this.setState({ class: this.state.class === "box" ? "" : "box" })
         }
-        return(
+    }
+    render() {
+
+        return (
             <div>
                 <input type="submit" value="show/hide" onClick={showHide}></input>
-                <div className="box" style={{display:this.state.display}}></div>
+                <div className="box" className={this.state.class}></div>
             </div>
         )
     }
+
 }
 
 export default BigBox;

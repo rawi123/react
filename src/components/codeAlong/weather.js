@@ -1,23 +1,11 @@
 import React from "react";
 
-const w = (props) => {
-    return (
-        <div>
-
-        </div>
-    )
-}
 class Weather extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = { lat: null, err: null }
+    state = { lat: null, err: null }
+    componentDidMount() {
         window.navigator.geolocation.getCurrentPosition(
-            (location) => {
-                this.setState({ lat: location.coords.latitude })
-            },
-            (err) => {
-                this.setState({ err: err.code === 1 ? "position not allowed" : "error" })
-            }
+            (location) => this.setState({ lat: location.coords.latitude }),
+            (err) => this.setState({ err: err.code === 1 ? "position not allowed" : "error" })
         )
     }
     render() {

@@ -1,0 +1,10 @@
+.box-hidden{
+    transform: translateX(-100%);
+}
+.box-show{
+    animation: appear 1s forwards;
+}
+@keyframes appear {
+    0%{transform: translateX(-100%);}
+    100%{transform: translateX(0);}
+}
