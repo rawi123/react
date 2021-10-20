@@ -7,12 +7,11 @@ class ChuckSearch extends React.Component {
         this.state = { search: "" }
     }
 
-
     render() {
         return (
             <input type="text" value={this.state.search}
-                onChange={(e) => {
-                    this.setState({ search: e.target.value })
+                onChange={async (e) => {
+                    await this.setState({ search: e.target.value })
                     this.props.giveDad(this.state.search)
                 }}
             ></input>
