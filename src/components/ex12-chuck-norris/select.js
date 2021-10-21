@@ -14,7 +14,7 @@ class Select extends React.Component {
 
     render() {
         return (
-            <select onChange={(event) => { this.props.returnFunc(event.target.value) }}
+            <select onChange={(event) => { this.props.returnFunc(event.target.value)}}
                 ref={this.ref}>
                 <option >random</option>
             </select>

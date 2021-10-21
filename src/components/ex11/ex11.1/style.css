@@ -1,0 +1,11 @@
+.btn{
+    width: 20%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
