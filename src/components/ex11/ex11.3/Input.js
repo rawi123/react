@@ -1,16 +1,17 @@
 import React, { useState } from 'react'
+import { Component } from 'react'
 
-export default function Input({ text, changeState,startValue }) {
-    const [value, setValue] = useState("");
+export default function Input({ text, changeState, startValue, storage }) {
+
     return (<>
         {text} <input type="text"
-            value={value||startValue}
             required={true}
+            value={startValue}
             onChange={(e) => {
-                const newVal = e.target.value
-                changeState(newVal)
-                setValue(newVal)
-            }} />
+                changeState(e.target.value)
+                localStorage.setItem(storage, e.target.value)
+            }}
+        />
     </>
     )
 

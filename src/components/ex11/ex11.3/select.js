@@ -1,19 +1,17 @@
 import React, { useState } from 'react'
 
-export default function Select({ text, changeState, range,startValue }) {
+export default function Select({ text, changeState, range, startValue, onChangeCB }) {
 
-    const [value, setValue] = useState("")
 
     return (
         <div>
             {text} <select required={true}
-                value={value||startValue}
+                value={startValue}
                 onChange={(e) => {
-                    const newVal = e.target.value
-                    changeState(newVal)
-                    setValue(newVal)
+                    changeState(e.target.value)
+                    localStorage.setItem("age", e.target.value)
                 }}>
-                {Array.from(Array(range).keys()).map(val=><option key={val} value={val}>{val}</option>)}
+                {Array.from(Array(range).keys()).map(val => <option key={val} value={val}>{val}</option>)}
             </select>
         </div >
     )
