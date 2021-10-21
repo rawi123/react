@@ -13,8 +13,10 @@
 // import Ex83 from "./components/ex8/ex8.3/changing-box";<Ex83/>
 // import SpinnerMain from "./components/ex9/spinnerMain";<SpinnerMain/>
 // import ChuckNorris from "./components/ex12-chuck-norris/chuckApi";<ChuckNorris/>
+// import Container from "./components/ex11/ex11.1/container";<Container/>
 // }
-import Container from "./components/ex11/ex11.1/container";
+//
+import Container from "./components/ex11/ex11.2/container";
 function App() {
 	return (
 		<div>
