@@ -16,16 +16,16 @@
 // import Container from "./components/ex11/ex11.1/container";<Container/>
 // import Container from "./components/ex11/ex11.2/container";<Container/>
 // import Form from "./components/ex11/ex11.3/Form";<Form/>
+// import DataMessaging from "./components/ex13/Ex13.1/DataMessaging";<DataMessaging/>
 // }
 //
-
-import DataMessaging from "./components/ex13/Ex13.1/DataMessaging";
+import Container from "./components/ex13/Ex13.2/container";
 
 
 function App() {
 	return (
 		<div>
-			<DataMessaging/>
+			<Container/>
 		</div>
 	);
 }
