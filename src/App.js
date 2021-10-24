@@ -15,15 +15,17 @@
 // import ChuckNorris from "./components/ex12-chuck-norris/chuckApi";<ChuckNorris/>
 // import Container from "./components/ex11/ex11.1/container";<Container/>
 // import Container from "./components/ex11/ex11.2/container";<Container/>
+// import Form from "./components/ex11/ex11.3/Form";<Form/>
 // }
 //
 
-import Form from "./components/ex11/ex11.3/Form";
+import DataMessaging from "./components/ex13/Ex13.1/DataMessaging";
+
 
 function App() {
 	return (
 		<div>
-			<Form/>
+			<DataMessaging/>
 		</div>
 	);
 }
