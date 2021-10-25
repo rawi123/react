@@ -8,7 +8,7 @@ export default function Products() {
         <div className="home">
             {Store.map((val, i) => (
                 <div key={i} className="card">
-                    <Link to={`/products/${i + 1}`}>{val.name}</Link>
+                    <Link to={`/product/${i + 1}`}>{val.name}</Link>
                 </div>
             ))}
         </div>
