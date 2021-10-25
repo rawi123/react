@@ -19,17 +19,19 @@
 // import DataMessaging from "./components/ex13/Ex13.1/DataMessaging";<DataMessaging/>
 // import Container from "./components/ex13/Ex13.2/container";<Container/>
 // import Container from "./components/ex16/Container";<Container/>
+// import Container from "./components/ex18/ex18.1/Container";<Container/>
 // }
 //
 
-import Container from "./components/ex18/ex18.1/Container";
+import Ex182Container from "./components/ex18/ex18.2/Ex18.2Container";
+
 
 
 
 function App() {
 	return (
 		<div>
-			<Container/>
+			<Ex182Container/>
 		</div>
 	);
 }
