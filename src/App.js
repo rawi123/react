@@ -22,10 +22,13 @@
 // import Container from "./components/ex18/ex18.1/Container";<Container/>
 // import Ex182Container from "./components/ex18/ex18.2/Ex18.2Container";<Ex182Container/>
 // import Ex183Container from "./components/ex18/ex18.3/Ex183Container";<Ex183Container/>
+// import { Ex192Container } from "./components/ex19/ex19.1/Ex192Container";<Ex192Container/>
 // }
 //
 
-import { Ex192Container } from "./components/ex19/ex19.1/Ex192Container";
+import Ex192Container from "./components/ex19/ex19.2/Ex192Container";
+
+			
 
 
 
