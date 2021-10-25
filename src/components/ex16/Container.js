@@ -21,7 +21,7 @@ export default class Container extends Component {
                                     <h2>{val.name}</h2>
                                     <h4>price: {val.price}</h4>
                                     <div>
-                                        {val.images.map(imageUrl => <img key={imageUrl} className="image" src={imageUrl}></img>)}
+                                        {val.images.map(imageUrl => <img alt="img" key={imageUrl} className="image" src={imageUrl}></img>)}
                                     </div>
                                     <Link to="/products"><input type="submit" value="back"/></Link>
                                 </div>
