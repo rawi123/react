@@ -35,3 +35,15 @@
     margin:5vw;
     font-size: 4rem;
 }
+input[type="submit"]{
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background: burlywood;
+    border: none;
+    border-radius: 5px;
+    transition: all .2s;
+}
+input[type="submit"]:hover{
+    background: rgba(222, 184, 135, 0.637);
+}

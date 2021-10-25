@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route,Link } from 'react-router-dom'
 import Header from './header'
 import HomePage from './HomePage'
 import Products from './products'
@@ -8,7 +8,6 @@ import store from './store'
 
 export default class Container extends Component {
     render() {
-        { console.log(store); }
         return (
             <div>
                 <BrowserRouter>
@@ -24,6 +23,7 @@ export default class Container extends Component {
                                     <div>
                                         {val.images.map(imageUrl => <img key={imageUrl} className="image" src={imageUrl}></img>)}
                                     </div>
+                                    <Link to="/products"><input type="submit" value="back"/></Link>
                                 </div>
                         } />
                         ))}
